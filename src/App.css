@@ -1,0 +1,445 @@
+body {
+    padding-top: 70px;
+}
+
+.heading{
+    margin-top: 30px;
+    text-align: center;
+}
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.label-style{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.input-style{
+    padding: 5px;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+}
+
+.btn-style{
+    padding: 10px !important;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+}
+
+.w-33{
+    width: 32%;
+}
+
+.btn-gap{
+    margin-top: 50px !important;
+}
+
+.bot-label{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bot-image{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bot-image:hover{
+    border-width: 5px;
+}
+
+canvas{
+    border-style: solid;
+    border-width: 3px;
+}
+
+.btn-start{
+    border: none !important;
+    background-color: #4CAF50 !important;
+}
+
+i{
+    margin-left: 20px;
+}
+
+.home-gradient {
+    background: rgb(0, 212, 255); /* Fallback color */
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 10%, rgba(2, 128, 144, 1) 45%, rgba(0, 255, 168, 1) 100%);
+    height: calc(100vh - 70px);
+    flex-direction: column;
+}
+
+
+.divider {
+    display: block;
+    height: 4px;
+    width: 5rem !important;
+    background: #f76c2f;
+}
+
+.section-heading {
+    color: red;
+}
+
+.normal-text {
+    font-size: large;
+}
+
+.footer-text, .footer-link {
+    text-decoration: none;
+    color:darkgray;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.card-footer-style {
+    background-color: darkblue !important;
+    color: white !important;
+    
+}
+
+.card-background {
+    background:  linear-gradient(50deg, rgb(191, 231, 241), #fff) !important;
+}
+
+.card-background:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signs{
+    margin-top: 10px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.hor-line {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 85%;               
+    background-color: gainsboro;
+    height: 1px;
+}
+
+/* App.css */
+.button-style {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button-style:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  
+  /* App.css */
+.card-background {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-background:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .btn-interactive {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-interactive:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    transform: scale(1.05);
+  }
+  
+  /* Optional styling for section heading and text */
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .normal-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Image Container Enhancements */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 10px 10px 0 0;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Card Enhancements */
+.card-background {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-background:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-interactive {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-interactive:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.normal-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.convert-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .convert-controls {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .label-style {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .input-style {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .button-style {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-style:hover {
+    background-color: #0056b3;
+  }
+  
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .canvas-container {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .bot-label {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .bot-image {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+  }
+  
+  .bot-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .slider-style {
+    margin-top: 10px;
+  }
+  
+  .label-style {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.no-padding-top {
+  margin-top: 0; /* Remove upper padding */
+}
+
+
+.container-fluid {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .heading {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .signs {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signs:hover {
+    background-color: #0056b3;
+  }
+  
+  .bot-image {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bot-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .selected-avatar {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+  
+  .custom-slider .input-slider {
+    margin-top: 10px;
+  }
+  
+  .label-style {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .bot-label {
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+
+ /* Updated CSS for Navbar and Logo Styling */
+
+#mainNav {
+  background-color: transparent !important; /* Ensure navbar background is transparent */
+  box-shadow: none; /* Remove box shadow if not needed */
+}
+
+.navbar-nav .nav-link {
+  color: #000000; /* Set text color to dark black */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #333333; /* Slightly lighter black for hover effect */
+}
+
+.logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .logo h1 {
+      font-size: 28px;
+  }
+}
+
+.logo h1 a,
+.logo h1 a:hover {
+  color: #00366f; /* Text color for the logo */
+  text-decoration: none; /* Remove underline */
+}
+
+.logo img {
+  padding: 0;
+  max-height: 26px; /* Adjust if using an image logo */
+}
